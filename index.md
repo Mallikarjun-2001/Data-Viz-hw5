@@ -16,6 +16,9 @@ Prior to plotting, the data was cleaned by removing rows with missing or blank C
 #Rendering on Jekyll page:
 This plot has been embedded into the Jekyll page as a static PNG image. It displays correctly without errors and meets the rubric requirement for inclusion and clarity.
 
+[View Bar Plot](bar_chart.html)
+
+
 ## Visualization 2: Building Size by Year Constructed (Interactive)
 
 This scatter plot analyzes the relationship between the year a building was constructed and its size, measured in square footage. Each data point represents an individual building. This plot is designed to highlight construction trends over time and identify how building sizes may have changed across different periods. It also allows for regional comparison by coloring data points based on the county to which the building belongs.
@@ -37,6 +40,8 @@ The dropdown is implemented using alt.binding_select() and selection_single, and
 
 Rendering on Jekyll page:
 A static version of this plot is embedded in the Jekyll site as an image. Additionally, an interactive version is linked externally via HTML, ensuring that the interactivity is accessible for grading purposes. This meets all technical and content requirements specified in the rubric.
+
+[View Interactive Scatter Plot](scatter_plot.html)
 
 ### Links  
 - [The Data](https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv)  
