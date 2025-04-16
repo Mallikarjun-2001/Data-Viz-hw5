@@ -5,6 +5,8 @@ title: Homework – Altair Visualization
 
 ## Visualization 1: Building Count by County
 
+<iframe src="bar_chart.html" width="100%" height="500px" frameborder="0"></iframe>
+
 This bar chart presents the number of state-owned buildings across Illinois, aggregated by county. Each bar corresponds to a county and represents the total number of buildings listed under that county in the dataset. The purpose of this visualization is to provide a high-level understanding of which regions in Illinois maintain a higher concentration of public infrastructure. This can be useful in policy planning, regional development assessments, and infrastructure resource allocation.
 
 ### Design choices and encodings:
@@ -17,6 +19,8 @@ Prior to plotting, the data was cleaned by removing rows with missing or blank C
 This plot has been embedded into the Jekyll page as a static PNG image. It displays correctly without errors and meets the rubric requirement for inclusion and clarity.
 
 ## Visualization 2: Building Size by Year Constructed (Interactive)
+
+<iframe src="scatter_plot.html" width="100%" height="600px" frameborder="0"></iframe>
 
 This scatter plot analyzes the relationship between the year a building was constructed and its size, measured in square footage. Each data point represents an individual building. This plot is designed to highlight construction trends over time and identify how building sizes may have changed across different periods. It also allows for regional comparison by coloring data points based on the county to which the building belongs.
 
